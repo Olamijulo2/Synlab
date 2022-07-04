@@ -1,0 +1,54 @@
+
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg1 {
+    background-image: url(Microscope.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.h-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.c-btn {
+    position: relative;
+    margin-top: 10%; 
+    margin-left: 10%;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background: #003765;
+    transition: width 2s;
+    border: 2px solid #0077ad;
+    border-radius: 1em;
+    font-size: large;
+}
+button:hover {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-container {
+    padding: 100px 150px 20px 100px;
+}
+
+.card {
+    height: 100px;
+    text-align: center;
+}
